@@ -1,0 +1,16 @@
+C:\Miriã\eita\bin\Debug\net5.0\eita.exe
+C:\Miriã\eita\bin\Debug\net5.0\eita.deps.json
+C:\Miriã\eita\bin\Debug\net5.0\eita.runtimeconfig.json
+C:\Miriã\eita\bin\Debug\net5.0\eita.runtimeconfig.dev.json
+C:\Miriã\eita\bin\Debug\net5.0\eita.dll
+C:\Miriã\eita\bin\Debug\net5.0\ref\eita.dll
+C:\Miriã\eita\bin\Debug\net5.0\eita.pdb
+C:\Miriã\eita\obj\Debug\net5.0\eita.csproj.AssemblyReference.cache
+C:\Miriã\eita\obj\Debug\net5.0\eita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Miriã\eita\obj\Debug\net5.0\eita.AssemblyInfoInputs.cache
+C:\Miriã\eita\obj\Debug\net5.0\eita.AssemblyInfo.cs
+C:\Miriã\eita\obj\Debug\net5.0\eita.csproj.CoreCompileInputs.cache
+C:\Miriã\eita\obj\Debug\net5.0\eita.dll
+C:\Miriã\eita\obj\Debug\net5.0\ref\eita.dll
+C:\Miriã\eita\obj\Debug\net5.0\eita.pdb
+C:\Miriã\eita\obj\Debug\net5.0\eita.genruntimeconfig.cache
