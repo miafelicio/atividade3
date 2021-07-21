@@ -15,7 +15,7 @@ namespace eita
                 Console.WriteLine("Digite uma das opções");
                 Console.WriteLine("Digite 1 - para cadastrar-se");
                 Console.WriteLine("Digite 2 - para ver a lista de participantes");
-                Console.WriteLine($"Digite 0 - para sair");
+                Console.WriteLine("Digite 0 - para sair");
 
                 Digite = int.Parse(Console.ReadLine());
 
@@ -52,7 +52,7 @@ namespace eita
                                     break;
                             
                             }
-                         } while (default);
+                         } while (Responsavel==default);
 
                         }
 
@@ -76,11 +76,11 @@ namespace eita
                         break;
 
                     case 0:
-                        Console.WriteLine($"Tchau");
+                        Console.WriteLine("Tchau");
 
                         break;
                     default:
-                        Console.WriteLine($"Opção invalida");
+                        Console.WriteLine("Opção invalida");
 
                         break;
 
