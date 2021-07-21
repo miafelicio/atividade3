@@ -5,9 +5,9 @@ namespace eita
 {
     class Program
     {
+        static List<string> Participantes = new List<string>();
         static void Main(string[] args)
         {
-            List<string> Participantes = new List<string>();
             int Digite;
 
             do
@@ -30,9 +30,13 @@ namespace eita
 
                         if (idade < 16)
                         {
-                            Console.WriteLine("Contatamos que você tem " + idade + " anos,você estara acompanhado de um responsavel?");
+                           
+                                
+                            Console.WriteLine("Constatamos que você tem " + idade + " anos,você estará acompanhado de um responsavel?");
                             string Responsavel = Console.ReadLine();
-
+                         do
+                         {
+                             
                             switch (Responsavel)
                             {
                                 case "sim":
@@ -46,7 +50,9 @@ namespace eita
                                 default:
                                     Console.WriteLine("Resposta invalida");
                                     break;
+                            
                             }
+                         } while (default);
 
                         }
 
@@ -63,10 +69,9 @@ namespace eita
                         break;
                     case 2:
                         Console.WriteLine();
-                        foreach (string cadanome in Participantes)
                         {
                             Console.WriteLine("Lista de participantes");
-                            Console.WriteLine(cadanome);
+                            ListarParticipantes();
                         }
                         break;
 
@@ -85,5 +90,14 @@ namespace eita
 
 
         }
+        static void ListarParticipantes()
+        {
+            foreach (string cadanome in Participantes)
+            {
+                Console.WriteLine(cadanome);
+            }
+
+        }
     }
+
 }
